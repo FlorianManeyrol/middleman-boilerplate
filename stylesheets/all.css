@@ -9392,9 +9392,13 @@ html {
   color: white; }
 
 /* line 2, /Users/florianmaneyrol/code/florianmaneyrol/middleman-boilerplate/boilerplate/source/stylesheets/pages/_pricing.css.scss */
-.pricing h1, .pricing h2 {
+.pricing h1 {
   font-family: "Raleway", "Helvetica", "sans-serif";
   padding: 40px 0; }
+/* line 6, /Users/florianmaneyrol/code/florianmaneyrol/middleman-boilerplate/boilerplate/source/stylesheets/pages/_pricing.css.scss */
+.pricing h2 {
+  font-family: "Raleway", "Helvetica", "sans-serif";
+  font-size: 50px; }
 
 /*
 ==============================================
