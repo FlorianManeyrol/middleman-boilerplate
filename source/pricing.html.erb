@@ -6,10 +6,8 @@ title: Pricing page
     <div class="row">
       <h1>Our Pricing </h1>
       <% data.products.each do |product| %>
-
-
       <div class="row">
-        <div class="col-xs-6 text-center">
+        <div class="col-xs-12 col-sm-6 text-center">
           <%= image_tag product.picture, class: "img-circle img-responsive center-block" %>
           <h2><%= product.price %></h2>
           <p><%= product.summary %></p>

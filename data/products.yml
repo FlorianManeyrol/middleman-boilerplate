@@ -1,8 +1,9 @@
 - name: Kudoz
-  picture: http://placehold.it/150x150
-  summary: Tinder for job search
+  picture: http://unsplash.it/150x150?image=3
+  summary: Tinder for job search AWESOME
   price: 12€
 - name: Krawd
-  picture: http://placehold.it/150x150
-  summary: Market place for brands and designers
+  picture: http://unsplash.it/150x150/?random
+  summary: Market place for brands and designers NICE
   price: 22€
+
