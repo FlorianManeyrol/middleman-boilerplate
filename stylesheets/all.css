@@ -9368,7 +9368,7 @@ html {
 
 /* line 1, /Users/florianmaneyrol/code/florianmaneyrol/middleman-boilerplate/boilerplate/source/stylesheets/pages/_home.scss */
 .banner {
-  background-image: url("../images/hash.jpg") center bottom;
+  background: url("../images/hash.jpg") center bottom;
   background-size: cover; }
 
 /* line 6, /Users/florianmaneyrol/code/florianmaneyrol/middleman-boilerplate/boilerplate/source/stylesheets/pages/_home.scss */
