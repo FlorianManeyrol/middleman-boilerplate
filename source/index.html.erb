@@ -2,9 +2,112 @@
 title: Le Wagon Middleman boilerplate
 ---
 
-<div class="welcome text-center padded">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+
+    <!-- Banner -->
+    <div class="banner text-center">
+      <div class="banner-content">
+        <h1>Startup tools</h1>
+        <p>Very cool stuff, useful and smart</p>
+        <a href="#"class="btn btn-primary btn-lg">GET IT</a>
+      </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="cards">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-lg-3">
+            <h2>
+              <img src="../images/chat.png" alt="chat" class="resize-icon">
+              Discuss best tools
+              </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ipsum in, voluptatem facilis non hic suscipit illo similique quos ad. Vel facere et qui! Quaerat nulla cumque, fugiat perferendis ex.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-3">
+            <h2>
+              <img src="../images/mobile.png" alt="mobile" class="resize-icon">
+              Always in sync
+              </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ipsum in, voluptatem facilis non hic suscipit illo similique quos ad. Vel facere et qui! Quaerat nulla cumque, fugiat perferendis ex.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-3">
+            <h2>
+              <img src="../images/heart.png" alt="heart" class="resize-icon">
+              Powerful search
+              </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ipsum in, voluptatem facilis non hic suscipit illo similique quos ad. Vel facere et qui! Quaerat nulla cumque, fugiat perferendis ex.
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-3">
+            <h2>
+              <img src="../images/search.png" alt="search" class="resize-icon">
+              Share the love
+              </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ipsum in, voluptatem facilis non hic suscipit illo similique quos ad. Vel facere et qui! Quaerat nulla cumque, fugiat perferendis ex.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Newsletter -->
+
+    <div class="newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-offset-2 col-xs-8 col-sm-offset-4 col-sm-4 col-lg-offset-4 col-lg-4">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Map -->
+ <!--    <div class="text-center map-title">
+    <h2>
+      <p>Nous sommes ici</p>
+    </h2>
+    </div> -->
+
+    <div id="map" style="width: 100%;height: 300px;">
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+
+    </div>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <script type="text/javascript">
+    var myLatlng = new google.maps.LatLng(48.852937,2.364178);
+
+    var myOptions = {
+      zoom: 16,
+      center: myLatlng,
+      scrollwheel: false,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      // styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]
+    };
+
+    var map = new google.maps.Map(document.getElementById('map'), myOptions);
+    var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title:"You are here!"
+    });
+    </script>
+
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
