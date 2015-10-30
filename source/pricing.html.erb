@@ -1,0 +1,14 @@
+---
+title: Pricing page
+---
+<div class="pricing text-center">
+  <div class="container">
+    <div class="row">
+      <h1>Our Pricing </h1>
+      <% data.products.each do |product| %>
+        <h2><%= product.price %></h2>
+        <p><%= product.summary %></p>
+      <% end %>
+    </div>
+  </div>
+</div>
