@@ -9368,10 +9368,11 @@ html {
 
 /* line 1, /Users/florianmaneyrol/code/florianmaneyrol/middleman-boilerplate/boilerplate/source/stylesheets/pages/_home.scss */
 .banner {
+  /*background:url("../images/hash.jpg")center bottom;*/
   background: url("../images/hash.jpg") center bottom;
   background-size: cover; }
 
-/* line 6, /Users/florianmaneyrol/code/florianmaneyrol/middleman-boilerplate/boilerplate/source/stylesheets/pages/_home.scss */
+/* line 7, /Users/florianmaneyrol/code/florianmaneyrol/middleman-boilerplate/boilerplate/source/stylesheets/pages/_home.scss */
 .banner-content {
   color: white;
   font-family: Raleway;
@@ -9379,16 +9380,21 @@ html {
   margin: 0 0;
   padding: 150px 0; }
 
-/* line 14, /Users/florianmaneyrol/code/florianmaneyrol/middleman-boilerplate/boilerplate/source/stylesheets/pages/_home.scss */
+/* line 15, /Users/florianmaneyrol/code/florianmaneyrol/middleman-boilerplate/boilerplate/source/stylesheets/pages/_home.scss */
 .banner-content h1 {
   font-weight: 800;
   text-shadow: 1px 2px 3px #666; }
 
-/* line 19, /Users/florianmaneyrol/code/florianmaneyrol/middleman-boilerplate/boilerplate/source/stylesheets/pages/_home.scss */
+/* line 20, /Users/florianmaneyrol/code/florianmaneyrol/middleman-boilerplate/boilerplate/source/stylesheets/pages/_home.scss */
 .newsletter {
   padding: 40px 0;
   background-color: #2381D0;
   color: white; }
+
+/* line 2, /Users/florianmaneyrol/code/florianmaneyrol/middleman-boilerplate/boilerplate/source/stylesheets/pages/_pricing.css.scss */
+.pricing h1, .pricing h2 {
+  font-family: "Raleway", "Helvetica", "sans-serif";
+  padding: 40px 0; }
 
 /*
 ==============================================
