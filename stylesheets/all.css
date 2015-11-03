@@ -9930,22 +9930,3 @@ stretchRight
     transform: scaleX(1.01); }
   100% {
     transform: scaleX(1); } }
-/* line 16, /Users/florianmaneyrol/code/florianmaneyrol/middleman-boilerplate/boilerplate/source/stylesheets/all.css.scss */
-body {
-  font-family: 'Open Sans', sans-serif;
-  color: #141414; }
-
-/* line 21, /Users/florianmaneyrol/code/florianmaneyrol/middleman-boilerplate/boilerplate/source/stylesheets/all.css.scss */
-h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 10px; }
-
-/* line 26, /Users/florianmaneyrol/code/florianmaneyrol/middleman-boilerplate/boilerplate/source/stylesheets/all.css.scss */
-h2 {
-  font-size: 25px; }
-
-/* line 30, /Users/florianmaneyrol/code/florianmaneyrol/middleman-boilerplate/boilerplate/source/stylesheets/all.css.scss */
-html {
-  position: relative;
-  min-height: 100%;
-  padding-bottom: 93px; }
